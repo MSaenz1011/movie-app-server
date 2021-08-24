@@ -1,6 +1,7 @@
 "use strict";
-import {getMovies} from './modules/apiRequest.js';
 
+//import {getMovies} from './apiRequest.js'
+import {getMovies} from './modules/apiRequest.js';
 
 const ventana= document.getElementById('input');
 ventana.addEventListener('keyup', async function(e){
